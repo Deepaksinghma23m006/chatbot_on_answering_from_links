@@ -14,7 +14,7 @@ from langchain.vectorstores import FAISS
 st.title("Google Generative AI with LangChain")
 
 # Load API key
-os.environ['GOOGLE_API_KEY'] = st.text_input("AIzaSyCi-HSxGKds7IYnXoVzYn7QZxx1PDsRbt8", type="password")
+os.environ['GOOGLE_API_KEY'] = st.text_input("your_api_key", type="password")
 
 # Configure the API
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
