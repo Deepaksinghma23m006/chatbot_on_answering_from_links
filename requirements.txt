@@ -1,0 +1,14 @@
+langchain
+python-dotenv
+streamlit
+unstructured
+tiktoken
+faiss-cpu
+libmagic
+python-magic
+google-generativeai
+langchain-google-genai
+langchain-community
+#python-magic-bin
+#OpenAI
+
